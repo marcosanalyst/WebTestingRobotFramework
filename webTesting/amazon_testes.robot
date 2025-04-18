@@ -1,6 +1,9 @@
 *** Test Cases ***
 
 Caso de Teste 01 - Acesso ao menu "Eletronicos"
+    [Documentation]     Esse teste verifica o menu Ofertas e Promoções da Amazon.com.br
+    ...                 posso escrever mais linhas
+    [Tags]  menus   categorias
     Acessar a home page do site Amazon.com.br
     Entrar no menu "Ofertas do Dia"
     Verificar se o título da página fica "Ofertas e Promoções | Amazon.com.br"
@@ -9,6 +12,8 @@ Caso de Teste 01 - Acesso ao menu "Eletronicos"
 
 
 Caso de Teste 02 - Pesquisa de Produto
+    [Documentation]     Esse teste verifica a busca de um produto
+    [Tags]  busca_produtos  lista_busca
     Acessar a home page do site Amazon.com.br
     Digitar o nome de produto "Xbox Series S" no campo de pesquisa
     Clicar no botão de pesquisa
