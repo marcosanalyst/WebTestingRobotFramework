@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.12.6 on win32)" generated="2025-04-18T14:34:09.343781" rpa="false" schemaversion="5">
+<suite id="s1" name="Amazon Testes" source="C:\Users\yaman\PycharmProjects\RobotFramework\WebTestingRobotFramework\webTesting\amazon_testes.robot">
+<test id="s1-t1" name="Caso de Teste 01 - Acesso ao menu &quot;Eletronicos&quot;" line="9">
+<kw name="Abrir o navegador" owner="amazon_resources" type="SETUP">
+<kw name="Open Browser" owner="Browser">
+<msg time="2025-04-18T14:34:09.533504" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2025-04-18T14:34:09.534507" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\yaman\\PycharmProjects\\RobotFramework\\WebTestingRobotFramework\\webTesting\\browser\\traces\\temp\\c0d418f7-ca29-4dd7-b8d5-b73f2f38524e"}</msg>
+<msg time="2025-04-18T14:34:09.557964" level="INFO">Starting Browser process C:\Users\yaman\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper\index.js using port 63589</msg>
+<msg time="2025-04-18T14:34:09.557964" level="INFO">Node startup parameters: ['node', 'C:\\Users\\yaman\\AppData\\Roaming\\Python\\Python312\\site-packages\\Browser\\wrapper\\index.js', '63589']</msg>
+<msg time="2025-04-18T14:34:10.918680" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\yaman\\PycharmProjects\\RobotFramework\\WebTestingRobotFramework\\webTesting\\browser\\traces\\temp\\c0d418f7-ca29-4dd7-b8d5-b73f2f38524e"}</msg>
+<msg time="2025-04-18T14:34:10.920696" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": true,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  }
+}</msg>
+<msg time="2025-04-18T14:34:10.950039" level="INFO">Successfully created context. </msg>
+<msg time="2025-04-18T14:34:10.950039" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
+<msg time="2025-04-18T14:34:11.161022" level="INFO">Successfully initialized new page object and opened url: about:blank</msg>
+<arg>browser=chromium</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
+<status status="PASS" start="2025-04-18T14:34:09.533504" elapsed="1.627518"/>
+</kw>
+<status status="PASS" start="2025-04-18T14:34:09.532288" elapsed="1.628734"/>
+</kw>
+<kw name="Acessar a home page do site Amazon.com.br" owner="amazon_resources">
+<kw name="Go To" owner="Browser">
+<msg time="2025-04-18T14:34:14.889907" level="INFO">Successfully opened URL https://www.amazon.com.br/</msg>
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Navigates to the given ``url``.</doc>
+<status status="PASS" start="2025-04-18T14:34:11.164027" elapsed="3.725880"/>
+</kw>
+<status status="PASS" start="2025-04-18T14:34:11.163030" elapsed="3.727382"/>
+</kw>
+<kw name="Fechar o navegador" owner="amazon_resources" type="TEARDOWN">
+<kw name="Close Browser" owner="Browser">
+<msg time="2025-04-18T14:34:15.215219" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-04-18T14:34:14.890412" elapsed="0.324807"/>
+</kw>
+<status status="PASS" start="2025-04-18T14:34:14.890412" elapsed="0.324807"/>
+</kw>
+<doc>Esse teste verifica o menu Ofertas e Promoções da Amazon.com.br
+posso escrever mais linhas</doc>
+<tag>categorias</tag>
+<tag>menus</tag>
+<status status="PASS" start="2025-04-18T14:34:09.529744" elapsed="5.685475"/>
+</test>
+<test id="s1-t2" name="Caso de Teste 02 - Pesquisa de Produto" line="20">
+<kw name="Abrir o navegador" owner="amazon_resources" type="SETUP">
+<kw name="Open Browser" owner="Browser">
+<msg time="2025-04-18T14:34:15.252982" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2025-04-18T14:34:15.252982" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\yaman\\PycharmProjects\\RobotFramework\\WebTestingRobotFramework\\webTesting\\browser\\traces\\temp\\2a5fc859-802a-4c96-893f-890a14750133"}</msg>
+<msg time="2025-04-18T14:34:15.504747" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\yaman\\PycharmProjects\\RobotFramework\\WebTestingRobotFramework\\webTesting\\browser\\traces\\temp\\2a5fc859-802a-4c96-893f-890a14750133"}</msg>
+<msg time="2025-04-18T14:34:15.506255" level="INFO">{
+  "acceptDownloads": true,
+  "bypassCSP": true,
+  "forcedColors": "none",
+  "ignoreHTTPSErrors": false,
+  "javaScriptEnabled": true,
+  "offline": false,
+  "reducedMotion": "no-preference",
+  "serviceWorkers": "allow",
+  "viewport": {
+    "height": 720,
+    "width": 1280
+  }
+}</msg>
+<msg time="2025-04-18T14:34:15.524914" level="INFO">Successfully created context. </msg>
+<msg time="2025-04-18T14:34:15.524914" level="INFO">{'acceptDownloads': True, 'bypassCSP': True, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
+<msg time="2025-04-18T14:34:15.749771" level="INFO">Successfully initialized new page object and opened url: about:blank</msg>
+<arg>browser=chromium</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Opens a new browser instance. Use this keyword for quick experiments or debugging sessions.</doc>
+<status status="PASS" start="2025-04-18T14:34:15.251857" elapsed="0.497914"/>
+</kw>
+<status status="PASS" start="2025-04-18T14:34:15.251857" elapsed="0.497914"/>
+</kw>
+<kw name="Acessar a home page do site Amazon.com.br" owner="amazon_resources">
+<kw name="Go To" owner="Browser">
+<msg time="2025-04-18T14:34:19.239711" level="INFO">Successfully opened URL https://www.amazon.com.br/</msg>
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Navigates to the given ``url``.</doc>
+<status status="PASS" start="2025-04-18T14:34:15.751627" elapsed="3.489492"/>
+</kw>
+<status status="PASS" start="2025-04-18T14:34:15.749771" elapsed="3.491348"/>
+</kw>
+<kw name="Digitar o nome de produto &quot;Xbox Series S&quot; no campo de pesquisa">
+<msg time="2025-04-18T14:34:19.244233" level="FAIL">No keyword with name 'Digitar o nome de produto "Xbox Series S" no campo de pesquisa' found.</msg>
+<status status="FAIL" start="2025-04-18T14:34:19.243228" elapsed="0.001005">No keyword with name 'Digitar o nome de produto "Xbox Series S" no campo de pesquisa' found.</status>
+</kw>
+<kw name="Clicar no botão de pesquisa">
+<status status="NOT RUN" start="2025-04-18T14:34:19.244233" elapsed="0.001434"/>
+</kw>
+<kw name="Verificar o resultado da pesquisa se está listando o produto pesquisado">
+<status status="NOT RUN" start="2025-04-18T14:34:19.245667" elapsed="0.001027"/>
+</kw>
+<kw name="Fechar o navegador" owner="amazon_resources" type="TEARDOWN">
+<kw name="Close Browser" owner="Browser">
+<msg time="2025-04-18T14:34:19.561519" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-04-18T14:34:19.247910" elapsed="0.313609"/>
+</kw>
+<status status="PASS" start="2025-04-18T14:34:19.246694" elapsed="0.316078"/>
+</kw>
+<doc>Esse teste verifica a busca de um produto</doc>
+<tag>busca_produtos</tag>
+<tag>lista_busca</tag>
+<status status="FAIL" start="2025-04-18T14:34:15.248449" elapsed="4.314323">No keyword with name 'Digitar o nome de produto "Xbox Series S" no campo de pesquisa' found.</status>
+</test>
+<doc>Essa suíte testa o site da Amazon.com.br</doc>
+<status status="FAIL" start="2025-04-18T14:34:09.344846" elapsed="10.252788"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">busca_produtos</stat>
+<stat pass="1" fail="0" skip="0">categorias</stat>
+<stat pass="0" fail="1" skip="0">lista_busca</stat>
+<stat pass="1" fail="0" skip="0">menus</stat>
+</tag>
+<suite>
+<stat pass="1" fail="1" skip="0" id="s1" name="Amazon Testes">Amazon Testes</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-04-18T14:34:09.533504" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+<msg time="2025-04-18T14:34:15.252982" level="WARN">Open Browser is for quick experimentation and debugging only. Use New Page for production.</msg>
+</errors>
+</robot>

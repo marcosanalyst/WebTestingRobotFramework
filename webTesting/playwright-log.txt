@@ -1,0 +1,92 @@
+{"level":30,"time":"2025-04-18T17:34:10.195Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Listening on 63589"}
+(node:9888) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-04-18T17:34:10.653Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-04-18T17:34:10.915Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
+{"level":30,"time":"2025-04-18T17:34:10.916Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-04-18T17:34:10.916Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-04-18T17:34:10.924Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-04-18T17:34:10.925Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-04-18T17:34:10.925Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-18T17:34:10.925Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Trace file: "}
+{"level":30,"time":"2025-04-18T17:34:10.945Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Changed active context"}
+{"level":30,"time":"2025-04-18T17:34:10.946Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"End of node method newContext"}
+{"level":30,"time":"2025-04-18T17:34:10.953Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-18T17:34:10.953Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-18T17:34:11.130Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Video path: undefined"}
+{"level":30,"time":"2025-04-18T17:34:11.131Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Changed active page"}
+{"level":30,"time":"2025-04-18T17:34:11.158Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-18T17:34:11.170Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-04-18T17:34:14.887Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"End of node method goTo"}
+{"level":30,"time":"2025-04-18T17:34:14.893Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-04-18T17:34:14.929Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Removed page=da7288dc-424f-4bfd-b64b-f4d2ab5d699b from context=52cbd19f-4f23-433f-88de-abe165a2d461 page stack"}
+{"level":30,"time":"2025-04-18T17:34:15.213Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\yaman\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper\index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\yaman\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper\index.js:13119:59)
+    at PlaywrightServer.setTimeout (C:\Users\yaman\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper\index.js:13367:57)
+    at Object.onReceiveHalfClose (C:\Users\yaman\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\yaman\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\yaman\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\yaman\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-04-18T17:34:15.246Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-18T17:34:15.246Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-18T17:34:15.250Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-18T17:34:15.250Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-18T17:34:15.254Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-04-18T17:34:15.502Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
+{"level":30,"time":"2025-04-18T17:34:15.502Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-04-18T17:34:15.502Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-04-18T17:34:15.508Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-04-18T17:34:15.508Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":true,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-04-18T17:34:15.508Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-18T17:34:15.508Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Trace file: "}
+{"level":30,"time":"2025-04-18T17:34:15.522Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Changed active context"}
+{"level":30,"time":"2025-04-18T17:34:15.522Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"End of node method newContext"}
+{"level":30,"time":"2025-04-18T17:34:15.528Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-18T17:34:15.528Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-18T17:34:15.723Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Video path: undefined"}
+{"level":30,"time":"2025-04-18T17:34:15.723Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Changed active page"}
+{"level":30,"time":"2025-04-18T17:34:15.747Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-18T17:34:15.753Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-04-18T17:34:19.238Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"End of node method goTo"}
+{"level":30,"time":"2025-04-18T17:34:19.250Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-04-18T17:34:19.280Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Removed page=59fa8ae6-dcc7-4f9a-81d9-3c922a0ea166 from context=50f68acb-fa47-48e3-81c8-1e01990008af page stack"}
+{"level":30,"time":"2025-04-18T17:34:19.560Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\yaman\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper\index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\yaman\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper\index.js:13119:59)
+    at PlaywrightServer.setTimeout (C:\Users\yaman\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper\index.js:13367:57)
+    at Object.onReceiveHalfClose (C:\Users\yaman\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\yaman\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\yaman\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\yaman\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-04-18T17:34:19.595Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-18T17:34:19.595Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\yaman\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper\index.js:12223:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\yaman\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper\index.js:13119:59)
+    at PlaywrightServer.setTimeout (C:\Users\yaman\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper\index.js:13367:57)
+    at Object.onReceiveHalfClose (C:\Users\yaman\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\yaman\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\yaman\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\yaman\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-04-18T17:34:19.632Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-18T17:34:19.632Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-04-18T17:34:19.687Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-04-18T17:34:19.688Z","pid":9888,"hostname":"DESKTOP-TSC4V99","msg":"End of node method closeAllBrowsers"}

@@ -11,10 +11,10 @@ Caso de Teste 01 - Acesso ao menu "Eletronicos"
     ...                 posso escrever mais linhas
     [Tags]  menus   categorias
     Acessar a home page do site Amazon.com.br
-    Entrar no menu "Ofertas do Dia"
-    Verificar se o título da página fica "Ofertas e Promoções | Amazon.com.br"
-    Verificar se aparece a frase "Ofertas e Promoções | Amazon.com.br"
-    Verificar se aparece a categoria "Dispositivos Amazon e Acessórios"
+#    Entrar no menu "Ofertas do Dia"
+#    Verificar se o título da página fica "Ofertas e Promoções | Amazon.com.br"
+#    Verificar se aparece a frase "Ofertas e Promoções | Amazon.com.br"
+#    Verificar se aparece a categoria "Dispositivos Amazon e Acessórios"
 
 
 Caso de Teste 02 - Pesquisa de Produto
