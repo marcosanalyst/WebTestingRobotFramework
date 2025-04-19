@@ -52,6 +52,13 @@ Verificar se a api não permitiu o cadastro repetido
 
 Consultar os dados do novo usuário
     ${resposta_consulta}    GET On Session  alias=ServeRest     url=/usuarios/${ID_USUARIO}     expected_status=200
+    Log    ${resposta_consulta.status_code}
+    Log    ${resposta_consulta.reason}
+    Log    ${resposta_consulta.headers}
+    Log    ${resposta_consulta.elapsed}
+    Log    ${resposta_consulta.text}
+    Log    ${resposta_consulta.json()}
+
     Set Test Variable    ${RESP_CONSULTA}   ${resposta_consulta.json()}
 
 Conferir os dados retornados
