@@ -1,6 +1,7 @@
 *** Settings ***
 Library     RequestsLibrary
 Library     String
+Library    Collections
 
 *** Keywords ***
 
@@ -25,8 +26,13 @@ Cadastrar o usuário criado na ServeRest
                     ...  json=${body}
 
     Log  ${resposta.json()}
+    Set Test Variable    ${RESPOSTA}    ${resposta.json()}
 
 Criar Sessão na ServeRest
     # Na documentação mostar que tenho que enviar dois Headers no corpo da requisição
     ${headers}  Create Dictionary   accept=application/json     Content-Type=application/json
     Create Session    alias=ServeRest    url=https://serverest.dev/     headers=${headers}     # URL base da API
+
+Conferir se o usuário foi cadastrado corretamente
+    Log     ${RESPOSTA}
+    Dictionary Should Contain Item  ${RESPOSTA}     message  Cadastro realizado com sucesso    # dictionary    key    value
