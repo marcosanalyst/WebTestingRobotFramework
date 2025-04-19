@@ -15,3 +15,9 @@ Cenário 02: Cadastrar um usuário já existente
     Vou repetir o cadastro do usúario
     Verificar se a api não permitiu o cadastro repetido
 
+Cenário 03: Consultar os dados de um novo usuário
+    Criar um usuário novo
+    Cadastrar o usuário criado na ServeRest   email=${EMAIL_TESTE}  status_code_desejado=201
+    Consultar os dados do novo usuário
+    Conferir os dados retornados
+

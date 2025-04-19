@@ -1,0 +1,8 @@
+https://serverest.dev/
+
+Library Resquests
+https://docs.robotframework.org/docs/different_libraries/requests
+https://marketsquare.github.io/robotframework-requests/doc/RequestsLibrary.html
+
+usuário: marcos.silva
+email:	analyst.marcos@gmail.com
