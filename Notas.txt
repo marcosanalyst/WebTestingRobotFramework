@@ -10,3 +10,16 @@ usuário: marcos.silva
 email:	analyst.marcos@gmail.com
 
 https://www.w3schools.com/python/ref_requests_response.asp
+
+Links Úteis
+Mais cursos de Robot Framework para você continuar os estudos: https://robotizandotestes.blogspot.com/2023/04/novo-curso-robot-framework-com.html
+
+Nosso TELEGRAM: https://t.me/joinchat/Q5qH9xePmaaSC5hh
+
+Blog: https://robotizandotestes.blogspot.com.br/
+
+Robot User Guide: http://robotframework.org/robotframework/latest/RobotFrameworkUserGuide.html
+
+Meu GitHub com exemplos: https://github.com/mayribeirofernandes/testesrobotframework
+
+Meu LinkedIn: https://www.linkedin.com/in/mayfernandes/
